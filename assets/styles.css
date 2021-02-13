@@ -3,19 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root {
-    --color1: #38c4be;
-    --color2: #383838;
-    --color3: #eeefff;
-    --color4: #258682;
-}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--color3);
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e8ffff;
 }
 /* Header style start */
 header {
-    background-color: var(--color2);
+    background-color: #e8ffff;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -23,17 +18,18 @@ header {
     padding: 5px 25px 7px 0;
 }
 header h1 {
-    font-weight: bold;
+    font-size: 5rem;
     margin: 0;
     border: 0;
     padding: 5px 15px 5px 60px;
-    border-radius: 0 5px 5px 0;
-    background-color: var(--color1);
+    border-radius: 0 10px 10px 0;
+   font-family: 'Sacramento', cursive;
     line-height: 1.3;
+    color: #66BFBF;
 }    
 header h1 a {
     text-decoration: none;
-    color: var(--color2);
+    color: #66BFBF;
     font-size: 36px;
 }
 header nav {
@@ -48,21 +44,26 @@ header nav ul {
 }
 header nav ul li {
     margin: 5px 7px;
-    border-bottom: 3px solid var(--color1);
+    border-bottom: 3px solid #66BFBF;
 }
 header nav ul li a {
     margin: 10px 10px;
     font-size: 22px;
     text-decoration: none;
-    color: var(--color1);  
+    color: #66BFBF;  
 }
 /* Header Style End */
 /* Hero Style Start */
 .hero {
     position: relative;
 }
-.hero-image {
-    width: 100%;
+.hero img {
+   width: 200px;
+   height: auto;
+   padding: 50px 0;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 .hero-text {
     position: absolute;
@@ -74,13 +75,19 @@ header nav ul li a {
     font-size: 1.2vw;
     padding: 5px;
     border-radius: 5px;
-    background-color: var(--color1);
-    color: var(--color2);
+    background-color: #66BFBF;
+    color: #40514e;
 }
 /* Hero Style End */
+
+/* about me section */
+.about-me {
+    background-color: white;
+}
+
 /* Section style start */
 body {
-    background-color: var(--color3);
+    background-color: #e8ffff;
 }
 .content {
     display: flex;
@@ -95,7 +102,7 @@ body {
     margin: 20px 20px 0 20px;
     justify-content: flex-end;
     text-align: right;
-    color: var(--color2);
+    color: #40514e;
     font-size: 28px;
     width: 15%;
 }
@@ -109,12 +116,17 @@ body {
     align-items: center;
     margin: 20px 30px 0 0;
     padding: 0 30px;
-    border-left: 4px solid var(--color2);
+    border-left: 4px solid #40514e;
     line-height: 1.7;
     font-size: 20px;
     text-align: justify;
     width: 75%;
 }
+
+.work {
+    background-color: white;
+}
+
 .work-main {
     display: flex;
     flex-wrap: wrap;
@@ -133,8 +145,8 @@ body {
     position: absolute;
     bottom: 5vw;
     left: 0;
-    background-color: var(--color1);
-    color: var(--color2);
+    background-color: #66BFBF;
+    color: #40514e;
     padding: 1.5vw 3.0vw;
     text-align: left;
     border-radius: 0 1.5vw 1.5vw 0;
@@ -149,7 +161,7 @@ body {
 }
 .image {
     width: 100%;
-    border: 4px solid var(--color1);    
+    border: 4px solid #66BFBF;    
 }
 /* Section style end */
 /* footer style start*/
@@ -161,20 +173,20 @@ body {
 }
 .contact-me a {
     text-decoration: none;
-    color: var(--color2);
+    color: #40514e;
     font-size: 24px;
     line-height: 1.5;
     padding: 0;
-    border-bottom: 3px solid var(--color2);
+    border-bottom: 3px solid #40514e;
     margin-bottom: 15px;
 }
 /* footer section end */
 /* pseudo (hover) style start */
 header nav ul li:hover {
-    border-color: var(--color4);
+    border-color: #258682;
 }
 header nav ul li:hover > #hover {
-    color: var(--color4);
+    color: #258682;
 }
 .work-main a:hover {
     opacity: 0.8;
@@ -236,7 +248,7 @@ header nav ul li:hover > #hover {
     .section-title {
         justify-content: center;
         padding-bottom: 5px;
-        border-bottom: 3px solid var(--color2);
+        border-bottom: 3px solid #40514e;
         text-align: center;
         font-size: 20px;
         width: 100%;
@@ -262,7 +274,7 @@ header nav ul li:hover > #hover {
     }
     .contact-me a {
         font-size: 14px;
-        border-bottom: 2px solid var(--color2);
+        border-bottom: 2px solid #40514e;
     }
 }
 /* Media query for mobile phones and smaller */
@@ -281,7 +293,7 @@ header nav ul li:hover > #hover {
     }
     header nav ul li {
         margin: 5px 0;
-        border-bottom: 2px solid var(--color1);
+        border-bottom: 2px solid #66BFBF;
     }
     .hero-text {
         right: 0;
@@ -292,7 +304,7 @@ header nav ul li:hover > #hover {
     }
     .section-title {
         font-size: 16px;
-        border-bottom: 2px solid var(--color2);
+        border-bottom: 2px solid #40514e;
     }
     .right-section {
         font-size: 12px;
