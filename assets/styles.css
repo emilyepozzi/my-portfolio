@@ -141,22 +141,26 @@ body {
         position: relative;
         margin-bottom: 20px;
 }
+
+.work-secondary img {
+min-height: 180px;
+}
+
 .image-title {
     position: absolute;
     bottom: 5vw;
     left: 0;
     background-color: #66BFBF;
     color: #40514e;
-    padding: 1.5vw 3.0vw;
     text-align: left;
     border-radius: 0 1.5vw 1.5vw 0;
 }
-.image-title h3{
+.image-title h6{
     font-size: 2rem;
 
     line-height: 1.2;
 }
-.image-title h4{
+.image-title h7{
     font-size: 1.0vw;
 }
 .image {
@@ -267,11 +271,11 @@ header nav ul li:hover > #hover {
     .work-main, .work-secondary{
         margin-bottom: 10px;
     }
-    .image-title h3{
+    .image-title h6{
         font-size: 4.0vw;
         line-height: 1.5;
     }
-    .image-title h4{
+    .image-title h7{
         font-size: 2.5vw;
     }
     .contact-me a {
@@ -316,11 +320,11 @@ header nav ul li:hover > #hover {
         text-align: center;
         border-radius: 0;
     }
-    .image-title h3{
+    .image-title h6{
         font-size: 4.0vw;
         line-height: 1.5;
     }
-    .image-title h4{
+    .image-title h7{
         font-size: 2.5vw;
     }
     .work-secondary {
