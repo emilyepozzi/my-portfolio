@@ -114,9 +114,9 @@ body {
     align-items: center;
     margin: 20px 30px 0 0;
     padding: 0 30px;
-    border-left: 4px solid #40514e;
+    border-left: 3px solid #40514e;
     line-height: 1.7;
-    font-size: 30px;
+    font-size: 22px;
     text-align: justify;
     width: 75%;
 }
@@ -172,19 +172,32 @@ min-height: 180px;
 /* footer style start*/
 .contacts {
     justify-content: space-around;
+    border-left: 3px solid #66BFBF;
 }
+
+
 .contact-me {
     display: flex;
 }
+
 .contact-me a {
     text-decoration: none;
-    color: #40514e;
+    color: #66BFBF;
     font-size: 24px;
     line-height: 1.5;
     padding: 0;
-    border-bottom: 3px solid #40514e;
+    border-bottom: 3px #66BFBF;
     margin-bottom: 15px;
 }
+
+#contact-me {
+padding-bottom: 20px;
+}
+
+.footer-title {
+    color: #66BFBF;
+}
+
 /* footer section end */
 /* pseudo (hover) style start */
 header nav ul li:hover {

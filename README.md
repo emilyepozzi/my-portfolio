@@ -23,10 +23,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Screenshot:
-![Personal Portfolio Screenshot]()
+![Personal Portfolio Screenshot](photos/my-portfolio-screenshot.png "My Portfolio Screenshot")
 
 ## Project Links
 
-[My Personal Portfolio Website](https://emilyepozzi.github.io/portfolio/ "My Personal Portfolio Website")
+[My Personal Portfolio Website](https://emilyepozzi.github.io/my-portfolio/ "My Personal Portfolio Website")
 
 [GitHub Repo](https://github.com/emilyepozzi/portfolio "My Portfolio GitHub Repo")
