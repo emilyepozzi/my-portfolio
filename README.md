@@ -29,4 +29,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 [My Personal Portfolio Website](https://emilyepozzi.github.io/my-portfolio/ "My Personal Portfolio Website")
 
-[GitHub Repo](https://github.com/emilyepozzi/portfolio "My Portfolio GitHub Repo")
+[GitHub Repo](https://github.com/emilyepozzi/my-portfolio "My Portfolio GitHub Repo")
